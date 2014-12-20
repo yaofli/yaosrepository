@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <display-name>Menubar Tags</display-name>
+  <tlib-version>2.3</tlib-version>
+  <short-name>m</short-name>
+  <uri>/menubar-tags</uri>
+  <tag>
+    <name>showMenus</name>
+    <tag-class>com.hightech.carcare.util.MenuBarTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <description><![CDATA[样式]]></description>
+      <name>style</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+     <attribute>
+      <description><![CDATA[根目录]]></description>
+      <name>root</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

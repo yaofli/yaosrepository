@@ -1,0 +1,213 @@
+.displayMessage {
+	border: 1px solid rgb(221, 221, 221); color: rgb(35, 35, 35); padding-top: 20px; padding-bottom: 30px; padding-left: 70px; font-family: arial, verdana, sans-serif; font-weight: 500; margin-bottom: 15px; position: relative; background-image: url("/images/alert-text.gif");
+}
+.errorMessage {
+	padding: 35px 30px 20px 70px; border: 1px solid rgb(221, 221, 221); text-align: left; color: rgb(35, 35, 35); font-family: arial, verdana, sans-serif; font-weight: 500; margin-bottom: 15px; position: relative; background-image: url("/images/warning-text.gif");
+}
+.warningMessage {
+	padding: 20px 30px 20px 70px; border: 1px solid rgb(221, 221, 221); text-align: left; color: rgb(35, 35, 35); font-family: arial, verdana, sans-serif; font-weight: 500; margin-bottom: 15px; position: relative; background-image: url("/images/alert-text.gif");
+}
+.impersonationMessage {
+	border: 1px solid rgb(221, 221, 221); color: rgb(35, 35, 35); padding-top: 10px; padding-bottom: 10px; padding-left: 0px; font-family: arial, verdana, sans-serif; font-weight: 500; margin-bottom: 15px; position: relative; background-color: rgb(255, 255, 204);
+}
+.adminHomePageNav table {
+	width: 500px; margin-bottom: 22px;
+}
+.adminHomePageNav td img {
+	display: inline;
+}
+.adminHomePageNav h2 {
+	color: rgb(102, 102, 102); font-size: 14px; font-weight: 700; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.myAccountAdminBox {
+	padding: 6px; border: 1px dotted rgb(222, 222, 222); color: rgb(0, 0, 0); background-color: rgb(242, 242, 242);
+}
+.myAccountAdminBox td {
+	color: rgb(0, 0, 0);
+}
+.myAccountAdminUserCount {
+	padding: 10px; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102);
+}
+.myAccountAdminUserCount th {
+	color: rgb(255, 255, 255); font-size: 16px; font-weight: 700;
+}
+.myAccountAdminUserName {
+	font-size: 16px; font-weight: 700;
+}
+.myAccountAdminUserInfoBox {
+	padding: 6px; border: 3px solid rgb(255, 255, 255); background-color: rgb(248, 248, 248);
+}
+.myAccountAdminUserInfoBox th {
+	text-align: left;
+}
+.myAccountAdminTable {
+	padding: 8px 8px 14px; border: 1px dotted rgb(222, 222, 222); font-size: 12px; margin-bottom: 12px; background-color: rgb(242, 242, 242);
+}
+.myAccountAdminTable th {
+	padding: 5px; text-align: left; font-size: 12px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.myAccountAdminTable td {
+	padding: 5px; text-align: left; font-size: 12px; font-weight: 500; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.myAccountAdminTable i {
+	font-size: 10px;
+}
+.myAccountAdminUserInfoTable {
+	font-size: 12px;
+}
+.myAccountAdminUserInfoTable th {
+	text-align: left; color: rgb(102, 102, 102); font-size: 11px; font-weight: 700; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.myAccountAdminUserInfoTable td {
+	font-size: 11px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.myAccountAdminTitle {
+	font-size: 16px; font-weight: 700;
+}
+.myAccountAdminSearch form {
+	display: inline;
+}
+.myAccountAdminSearch table {
+	border: 1px solid rgb(102, 102, 102);
+}
+.myAccountAdminSearch th {
+	padding: 10px; text-align: left; color: rgb(255, 255, 255); font-family: arial, verdana, sans-serif; font-size: 14px; font-weight: 700; vertical-align: middle; background-color: rgb(102, 102, 102);
+}
+.myAccountAdminSearch th span {
+	color: rgb(255, 255, 255); font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: 500;
+}
+.myAccountAdminSearch td {
+	line-height: 40px; font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: 500; vertical-align: middle;
+}
+.myAccountAdminSearchFieldTitle {
+	padding-left: 10px; vertical-align: middle;
+}
+.myAccountAdminSearchFieldInput {
+	padding-right: 10px; padding-left: 4px; vertical-align: middle;
+}
+.myAccountAdminSearchFieldInput input {
+	font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountAdminSearchSubmit {
+	padding-right: 10px; padding-left: 10px;
+}
+#myAccountAdminSubNav {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#myAccountAdminSubNav h4 {
+	color: rgb(0, 0, 0); font-size: 11px; font-weight: 700;
+}
+#myAccountAdminSubNav td {
+	background-position: left; padding-right: 20px; padding-left: 10px; float: left; background-image: url("/images/rightArrow.gif"); background-repeat: no-repeat;
+}
+#myAccountAdminSubNav a:link {
+	color: rgb(170, 170, 170); font-size: 11px; font-weight: 500;
+}
+#myAccountAdminSubNav a:visited {
+	color: rgb(170, 170, 170); font-size: 11px; font-weight: 500;
+}
+#myAccountAdminSubNav a:active {
+	color: rgb(170, 170, 170); font-size: 11px; font-weight: 500;
+}
+#myAccountAdminSubNav a:hover {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500;
+}
+#myAccountAdminSubNav .myAccountAdminSubNavOn {
+	background-image: url("/images/downArrow.gif");
+}
+#myAccountAdminSubNav .myAccountAdminSubNavOn a:link {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#myAccountAdminSubNav .myAccountAdminSubNavOn a:visited {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#myAccountAdminSubNav .myAccountAdminSubNavOn a:active {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#myAccountAdminSubNav .myAccountAdminSubNavOn a:hover {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.myAccountAdminReviewListing table {
+	border: 1px solid rgb(136, 136, 136); margin-bottom: 18px; background-color: rgb(242, 242, 242);
+}
+.myAccountAdminReviewListing th {
+	padding: 5px; width: 100px; text-align: right; font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.myAccountAdminReviewListing td {
+	padding: 5px; font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500;
+}
+.myAccountAdminReviewListing td input {
+	width: 300px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountAdminReviewListing td input.radio {
+	width: 20px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountAdminReviewListing textarea {
+	width: 300px; height: 200px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountAdminReviewListing img {
+	padding: 4px; border: 1px solid rgb(222, 222, 222); background-color: rgb(255, 255, 255);
+}
+.myAccountAdminReviewListing .pdMyAccountReviewResponse td {
+	background-color: rgb(222, 222, 222);
+}
+.myAccountAdminReviewListing .pdMyAccountReviewResponse th {
+	background-color: rgb(222, 222, 222);
+}
+.pdMyAccountReviewStatus {
+	padding: 10px; border: 2px solid rgb(222, 222, 222); color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; background-color: rgb(136, 136, 136);
+}
+.pdMyAccountReviewStatus div {
+	border-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(222, 222, 222); color: rgb(255, 255, 255); font-weight: 700; margin-bottom: 5px; background-color: rgb(102, 102, 102);
+}
+.pdMyAccountReviewStatus td input {
+	width: 15px;
+}
+.pdMyAccountReviewStatus h4 {
+	padding: 0px; width: 120px; color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700; margin-top: 0px; margin-bottom: 6px;
+}
+.pdMyAccountReviewStatus .pdMyAccountReviewStatusApproved {
+	border-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(0, 225, 0);
+}
+.pdMyAccountReviewStatus .pdMyAccountReviewStatusDeleted {
+	border-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(225, 0, 0);
+}
+.pdMyAccountReviewStatus .pdMyAccountReviewStatusNew {
+	border-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(255, 255, 1);
+}
+.pdAdminReviewsSearch form {
+	display: inline;
+}
+.pdAdminReviewsSearch table {
+	border: 1px solid rgb(102, 102, 102);
+}
+.pdAdminReviewsSearch th {
+	padding: 10px; text-align: left; color: rgb(255, 255, 255); font-family: arial, verdana, sans-serif; font-size: 14px; font-weight: 700; vertical-align: middle; background-color: rgb(102, 102, 102);
+}
+.pdAdminReviewsSearch th span {
+	color: rgb(255, 255, 255); font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: 500;
+}
+.pdAdminReviewsSearch td {
+	padding: 8px; font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: 500; vertical-align: middle;
+}
+.myAccountPopupWrapper {
+	margin: 12px; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountPopupWrapper td {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myAccountPopupWrapper h1 {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 18px; font-weight: 700;
+}
+.myAccountPopupWrapper a:link {
+	color: rgb(0, 0, 200); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.myAccountPopupWrapper a:active {
+	color: rgb(0, 0, 200); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.myAccountPopupWrapper a:visited {
+	color: rgb(0, 0, 200); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.myAccountPopupWrapper a:hover {
+	color: rgb(68, 68, 68); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.scSequenceBanner {
+	width: 780px; height: 340px; overflow: hidden; font-family: Arial, Helvetica, sans-serif; position: relative;
+}
+.scSequenceBanner img {
+	border: 0px currentColor;
+}
+.scSequenceBannerMain {
+	position: relative;
+}
+.scSequenceBannerMain div {
+	left: 0px; top: 0px; position: absolute; opacity: 0;
+}
+.scSequenceButtons {
+	left: 605px; height: 25px; position: relative; z-index: 100;
+}
+a.scSButton {
+	background: url("scSBbtn.png") no-repeat right 0px; margin: 0px 1px 2px 0px; padding: 5px 0px 6px; width: 25px; text-align: center; color: rgb(0, 0, 0); font-size: 11px; float: left; display: block; cursor: pointer;
+}
+a.scSButton:hover {
+	background: url("scSBbtn.png") no-repeat 0px 0px; font-weight: bold;
+}
+a.scSBon {
+	background: url("scSBbtn.png") no-repeat center 0px; font-weight: bold;
+}
+a.scSBon:hover {
+	background: url("scSBbtn.png") no-repeat center 0px; font-weight: bold;
+}
+.scSequencePause {
+	background: url("scSBPause.png") no-repeat 0px 0px; width: 72px; height: 20px; position: absolute; z-index: 100;
+}

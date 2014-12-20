@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <display-name>Brandbar Tags</display-name>
+  <tlib-version>2.3</tlib-version>
+  <short-name>b</short-name>
+  <uri>/brandbar-tags</uri>
+  <tag>
+    <name>showBrands</name>
+    <tag-class>com.hightech.carcare.util.BrandBarTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <description><![CDATA[显示形式 树形 or 下拉框形式]]></description>
+      <name>showType</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+     <attribute>
+      <description><![CDATA[下拉框形式是否有默认值]]></description>
+      <name>showEmpty</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+     <attribute>
+      <description><![CDATA[JS调用方法名称]]></description>
+      <name>jsMethod</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+     <attribute>
+      <description><![CDATA[css 类]]></description>
+      <name>style</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

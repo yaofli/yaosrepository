@@ -1,0 +1,30 @@
+@media print
+{
+body {
+	width: auto; color: rgb(0, 0, 0); font-size: 12pt; background-image: none; background-color: rgb(255, 255, 255);
+}
+div#bodycontent {
+	padding: 0px; border: 0px currentColor; width: auto; margin-right: auto; margin-left: -200px;
+}
+div#header {
+	display: none;
+}
+div#headerforprint {
+	display: block;
+}
+div#bodyshell {
+	width: auto; margin-right: auto; margin-left: auto;
+}
+div#nav-product {
+	width: 0px; display: none; max-width: 0px;
+}
+div#footer {
+	display: none;
+}
+table#contents {
+	text-align: center; display: block;
+}
+table#related-items {
+	display: none;
+}
+}

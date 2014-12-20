@@ -1,0 +1,351 @@
+.registryWrapper {
+	width: 99%; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryWrapper td {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryWrapper h3 {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700;
+}
+.entryFieldNote {
+	color: rgb(136, 136, 136); font-weight: 500;
+}
+.entryFieldRequired {
+	color: rgb(200, 0, 0); font-weight: 500;
+}
+.titleGiftRegistry {
+	margin-bottom: 10px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.landingZones div {
+	padding: 10px; border: 1px dotted rgb(222, 222, 222); margin-right: 10px;
+}
+.registryBoxSearch {
+	border: 1px solid rgb(222, 222, 222); margin-bottom: 20px;
+}
+.registryBoxSearch h2 {
+	margin: 0px; padding: 8px; border: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700; background-color: rgb(99, 161, 220);
+}
+.registryBoxSearch h3 {
+	padding: 8px; color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.registryBoxSearch table {
+	margin: 10px;
+}
+.registryBoxSearch th {
+	text-align: left; padding-right: 10px; padding-bottom: 0px; font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.registryBoxSearch td {
+	padding-right: 10px; padding-bottom: 0px;
+}
+.registryEntryBox {
+	border: 1px solid rgb(222, 222, 222); margin-right: 12px;
+}
+.registryEntryBox h2 {
+	margin: 0px; padding: 8px; border: 1px solid rgb(255, 255, 255); color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 20px; font-weight: 700; background-color: rgb(255, 255, 255);
+}
+.registryEntryBox h2 span {
+	
+}
+.registryEntryBox h3 {
+	margin: 0px; padding: 8px; border: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700; background-color: rgb(99, 161, 220);
+}
+.registryEntryBox table {
+	margin: 8px;
+}
+.registryEntryBox td {
+	padding: 4px; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500;
+}
+.registryEntryBox div.title {
+	text-align: left; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.registryEntryBox th {
+	padding: 4px; text-align: left; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.registryEntryBox td {
+	padding: 4px; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryEntryBox th input {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryEntryBox td input {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryEntryBox th textarea {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryEntryBox td textarea {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myRegistryWrapper {
+	border: 1px solid rgb(222, 222, 222);
+}
+.myRegistryHeaderWrapper {
+	background-image: url("/mod_registry/skins/bestforbabies/headerBg.gif"); background-repeat: repeat-x;
+}
+.myRegistryHeader {
+	padding: 10px;
+}
+.myRegistrySubHeader {
+	padding: 4px 10px; background-color: rgb(99, 161, 220);
+}
+.myRegistrySubHeader a {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistrySubHeader a:link {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistrySubHeader a:active {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistrySubHeader a:visited {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistrySubHeader a:hover {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryDeleteLink {
+	padding-left: 20px;
+}
+.myRegistrySubHeader div.myRegistryDeleteLink a {
+	color: rgb(218, 235, 251); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.myRegistrySubHeader div.myRegistryDeleteLink a:link {
+	color: rgb(218, 235, 251); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.myRegistrySubHeader div.myRegistryDeleteLink a:active {
+	color: rgb(218, 235, 251); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.myRegistrySubHeader div.myRegistryDeleteLink a:visited {
+	color: rgb(218, 235, 251); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.myRegistrySubHeader div.myRegistryDeleteLink a:hover {
+	color: rgb(255, 255, 255); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.myRegistryTitle {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 5px;
+}
+.myRegistryTitle a {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 5px;
+}
+.myRegistryTitlePrint {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 5px;
+}
+.myRegistryTitle span {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.myRegistryTitle span a {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryTitle span a:link {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryTitle span a:active {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryTitle span a:visited {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryTitle span a:hover {
+	color: rgb(99, 161, 220); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.myRegistryType {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; margin-bottom: 10px;
+}
+.myRegistryDate {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; margin-bottom: 20px;
+}
+.myRegistryDatePrint {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myRegistryMessage {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myRegistryPrintLink {
+	
+}
+.myRegistryEmailLink {
+	
+}
+.myRegistryShipping {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myRegistryNeedRequested {
+	padding-top: 8px; padding-bottom: 8px; margin-top: 8px; margin-bottom: 16px; border-top-color: rgb(222, 222, 222); border-bottom-color: rgb(222, 222, 222); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-bottom-style: dotted;
+}
+.registryBuyCell td {
+	background-position: left bottom; text-align: right; background-image: url("/skins/bestforbabies/buyButtonBg.gif"); background-repeat: repeat-y;
+}
+.registryBuyForMessage {
+	color: rgb(200, 0, 0); font-size: 10px;
+}
+.registryHowToAddLink a {
+	font-size: 12px; font-weight: 700;
+}
+.registryOptions {
+	font-size: 11px; margin-top: 4px; margin-bottom: 4px;
+}
+.registryPrice {
+	color: rgb(200, 0, 0);
+}
+.registryPopupWrapper {
+	padding: 20px; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryPopupWrapper h1 {
+	color: rgb(51, 51, 51); padding-top: 1px; font-family: arial,verdana,sans-serif; font-size: 16px; font-weight: 700; margin-top: 1px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.registryPopupWrapper th {
+	text-align: left; color: rgb(0, 0, 0); padding-bottom: 8px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.registryPopupWrapper td {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryHelp {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryHelp h2 {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 20px; font-weight: 500; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.registryHelp h3 {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700;
+}
+.registryHelp a:link {
+	font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryHelp a:active {
+	font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryHelp a:visited {
+	font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryHelp a:hover {
+	font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.registryFormStaticItem {
+	padding: 12px;
+}
+.registryFormStaticItem img {
+	border: 1px solid rgb(222, 222, 222);
+}
+.registryFormStaticItem td {
+	
+}
+.registryFormStaticItemName {
+	color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 12px;
+}
+.registryFormStaticItemName a:link {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.registryFormStaticItemName a:active {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.registryFormStaticItemName a:visited {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.registryFormStaticItemName a:hover {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.registryFormStaticItemQty {
+	padding-right: 10px;
+}
+.registryFormStaticItemPriceWrapper {
+	color: rgb(200, 0, 0); padding-right: 30px; font-weight: 700;
+}
+.registryFormStaticItemPrice {
+	
+}
+.registryFormStaticItemSalePrice {
+	
+}
+.registryFormStatic {
+	width: 650px;
+}
+.registryFormStatic h2 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 18px; margin-top: 0px; margin-bottom: 6px;
+}
+.registryFormStatic h3 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 13px; margin-top: 20px; margin-bottom: 3px; margin-left: 6px;
+}
+.registryFormStatic span {
+	color: rgb(200, 0, 0);
+}
+.registryFormStatic i {
+	color: rgb(187, 187, 187); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 700;
+}
+#qaFormStaticRatingStars img {
+	margin-right: 3px; float: left; display: inline; cursor: pointer;
+}
+.registryFormStaticEntrySm {
+	background-position: left bottom; padding: 6px; border: 1px solid rgb(200, 200, 200); background-image: url("bgQaFormSm.gif"); background-repeat: repeat-x;
+}
+.registryFormStaticEntryMed {
+	background-position: left bottom; padding: 6px; border: 1px solid rgb(200, 200, 200); background-image: url("bgQaFormMed.gif"); background-repeat: repeat-x;
+}
+.registryFormStaticEntryBig {
+	background-position: left bottom; padding: 6px; border: 1px solid rgb(200, 200, 200); background-image: url("bgQaFormBig.gif"); background-repeat: repeat-x;
+}
+.registryFormStaticGrayText {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500;
+}
+.registryFormStaticGrayTextSm {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500;
+}
+.registryFormStaticInputHeadline {
+	border: 1px solid rgb(200, 200, 200); width: 630px; height: 34px; color: rgb(51, 51, 51); line-height: 34px; font-family: arial,verdana,sans-serif; font-size: 16px; font-weight: 700;
+}
+.registryFormStaticInputHeadline:focus {
+	background-color: rgb(253, 245, 207);
+}
+.registryFormStaticTextarea {
+	border: 1px solid rgb(200, 200, 200); width: 300px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px;
+}
+.registryFormStaticTextarea:focus {
+	background-color: rgb(253, 245, 207);
+}
+.registryFormStaticInputInfo {
+	border: 1px solid rgb(200, 200, 200); width: 184px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px;
+}
+.registryFormStaticInputInfo:focus {
+	background-color: rgb(253, 245, 207);
+}
+.registryFormStaticTextareaReview {
+	border: 1px solid rgb(200, 200, 200); width: 630px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px;
+}
+.registryFormStaticTextareaReview:focus {
+	background-color: rgb(253, 245, 207);
+}
+.registryFormStaticLikeText {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.registryFormStaticLikeText b {
+	color: rgb(0, 150, 0);
+}
+.registryFormStaticLikeText img {
+	vertical-align: middle; display: inline;
+}
+.registryFormStaticDislikeText {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.registryFormStaticDislikeText b {
+	color: rgb(200, 0, 0);
+}
+.registryFormStaticDislikeText img {
+	vertical-align: middle; display: inline;
+}
+.registryFormStaticRecommend table {
+	margin-left: 8px;
+}
+.registryFormStaticRecommend th {
+	color: rgb(136, 136, 136); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.registryFormStaticYourInfo table {
+	margin: 6px;
+}
+.registryFormStaticYourInfo th {
+	text-align: left; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 700;
+}
+.registryFormStaticInput {
+	background-color: rgb(255, 255, 255);
+}
+.registryFormStaticInputHighlight {
+	background-color: rgb(49, 112, 130);
+}

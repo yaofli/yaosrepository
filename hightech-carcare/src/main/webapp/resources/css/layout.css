@@ -1,0 +1,119 @@
+
+/* This layout came from http://csseasy.com with very few changes applied. */
+
+body {
+	width: 960px;
+	margin: 0 auto; fixed no-repeat;
+	margin: 0px auto;
+	padding: 0px;
+	padding: 0px;
+	background-color:#fff;;
+}
+
+ 
+#menu { border: 1px solid #CCC; height:30px; background: #eee;background:url(../images/header5.png);}
+#menu ul { list-style: none; margin: 0px; padding: 0px; }
+#menu ul li { float:left; padding: 0px 8px; height: 26px; line-height: 26px; }
+#menu ul li a { color: #000; text-decoration: none;font-size:20px;font-family: sans-serif; }
+#menu ul li a:hover { color: #F00;font-size: 22px;font-family: serif; }
+
+.box {width:960px; margin:0 auto;}
+/* 导航 */
+#nav {
+	line-height: 34px;
+	background-image: url(../images/nav_bg.jpg);
+	background-repeat: repeat-x;
+	height: 34px;
+	font-size:15px; 
+	font-weight:bold;
+}
+#nav ul {width:960px; margin:0 auto;}
+#nav ul li {float:left;text-align: center;width: 76px; margin: 0 5px;list-style-type:none;}
+#nav ul li.curr,#nav ul li:hover {
+	background-image: url(../images/nav_curr.jpg);
+	background-repeat: no-repeat;
+	list-style-type:none;
+}
+#nav ul li a {color:#FFF;}
+#nav ul li.curr a,#nav ul li:hover a {color:#000;list-style-type:none;}
+
+#search{
+	height: 34px;
+	width: 50%;
+	background-color: red;
+	border: thin;
+	float: left;
+}
+
+#search span{
+	margin-left:10px;
+	font-family: sans-serif;
+}
+
+#brands{
+	height: 34px;
+	width: 50%;
+	background-color: green;
+	border: thin;
+	float: left;
+}
+
+#left{
+	height:100%;
+	width: 20%;
+	float: left;
+	border: thin;
+}
+#right{
+	width: 80%;
+	float: left;
+	border: thin;
+}
+
+
+#siderbar{
+	width: 100%;
+	margin-top:0px;
+	background-color: green;
+	float: left;
+	border: thin;
+}
+ 
+
+ 
+#siderbar ul li{
+	font-size: 16px;
+	font-family: sans-serif;
+	margin-left: 5px;
+	font-weight: bold;
+	list-style-type:none;
+	background-color: olive;
+	margin-top: 5px;
+	
+}
+
+#siderbar ul li a{
+	text-decoration: none;
+}
+
+#ag{
+	height:300px;
+	width: 100%;
+	background-color:orange;
+	float: left;
+	border: thin;
+}
+
+#categories{
+	height:500px;
+	width: 100%;
+	background-color:maroon;
+	float: left;
+	border: thin;
+}
+
+#footer{
+	height: 34px;
+	width: 100%;
+	background-color: red;
+}

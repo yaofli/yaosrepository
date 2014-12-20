@@ -1,0 +1,282 @@
+#product-info-table-2 #prItemRating td {
+	background: rgb(99, 101, 99);
+}
+#product-info-table-2 #prItemRating a {
+	color: rgb(255, 255, 255) !important;
+}
+.prShow {
+	display: block;
+}
+.prHide {
+	display: none;
+}
+.prProductReviewsDisplay {
+	
+}
+#prProductReviewsDisplay {
+	
+}
+.rating {
+	
+}
+.prItemRating {
+	text-align: left; color: rgb(0, 0, 0); padding-top: 4px; padding-bottom: 4px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+#prItemRating {
+	text-align: left; color: rgb(0, 0, 0); padding-top: 4px; padding-bottom: 4px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.prItemRating td {
+	vertical-align: middle;
+}
+#prItemRating td {
+	vertical-align: middle;
+}
+.prItemRating img {
+	
+}
+.prItemReviewLinkNoRating {
+	
+}
+.prItemReviewLinkNoRating a {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.prItemReviewLinkNoRating a:link {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.prItemReviewLinkNoRating a:active {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.prItemReviewLinkNoRating a:visited {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.prItemReviewLinkNoRating a:hover {
+	color: rgb(102, 102, 102); text-decoration: underline;
+}
+.prItemRatingCat {
+	text-align: center; color: rgb(102, 102, 102); line-height: 15px; font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500; margin-top: 4px; margin-bottom: 6px;
+}
+.prItemRatingCat span {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500;
+}
+.prItemRatingCat img {
+	margin-left: 4px; vertical-align: middle;
+}
+.prItemRatingCat a {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500; text-decoration: none;
+}
+.prItemRatingCat a:link {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500; text-decoration: none;
+}
+.prItemRatingCat a:active {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500; text-decoration: none;
+}
+.prItemRatingCat a:visited {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500; text-decoration: none;
+}
+.prItemRatingCat a:hover {
+	color: rgb(34, 34, 34); text-decoration: underline;
+}
+.prItemRatingStars {
+	padding-right: 12px;
+}
+.prItemRatingLinks {
+	color: rgb(136, 136, 136); font-size: 11px;
+}
+.prItemRatingLinks a {
+	color: rgb(136, 136, 136); font-size: 11px;
+}
+.prItemRatingLinks a:link {
+	color: rgb(136, 136, 136); font-size: 11px;
+}
+.prItemRatingLinks a:active {
+	color: rgb(136, 136, 136); font-size: 11px;
+}
+.prItemRatingLinks a:visited {
+	color: rgb(136, 136, 136); font-size: 11px;
+}
+.prItemRatingLinks a:hover {
+	color: rgb(0, 0, 0);
+}
+.prItemRatingBar {
+	color: rgb(204, 204, 204); padding-right: 6px; padding-left: 5px; font-size: 11px;
+}
+#prOverallRating {
+	padding: 12px; border: 1px solid rgb(222, 222, 222); margin-bottom: 18px;
+}
+.prOverallRating {
+	padding: 12px; border: 1px solid rgb(222, 222, 222); margin-bottom: 18px;
+}
+#prOverallRating table {
+	
+}
+.prOverallRating table {
+	
+}
+#prOverallRating table td {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; vertical-align: middle;
+}
+.prOverallRating table td {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; vertical-align: middle;
+}
+#prOverallRatingTitle {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(222, 222, 222) rgb(222, 222, 222) currentColor; padding: 6px; clear: both; background-image: linear-gradient(to top, rgb(222, 222, 222) 0%, rgb(255, 255, 255) 100%); background-color: rgb(222, 222, 222);
+}
+.prOverallRatingTitle {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(222, 222, 222) rgb(222, 222, 222) currentColor; padding: 6px; clear: both; background-image: linear-gradient(to top, rgb(222, 222, 222) 0%, rgb(255, 255, 255) 100%); background-color: rgb(222, 222, 222);
+}
+#prOverallRatingTitle h5 {
+	margin: 0px; padding: 0px 0px 4px; color: rgb(34, 34, 34); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700;
+}
+.prOverallRatingTitle h5 {
+	margin: 0px; padding: 0px 0px 4px; color: rgb(34, 34, 34); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700;
+}
+.prOverallRatingItemPrice {
+	color: rgb(34, 34, 34); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 500;
+}
+.prOverallRatingText {
+	padding-right: 20px; padding-left: 20px;
+}
+.prButItemReview {
+	
+}
+.prFirstToReview {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.prFirstToReview a:link {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.prFirstToReview a:active {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.prFirstToReview a:visited {
+	color: rgb(73, 117, 162); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.prFirstToReview a:hover {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;
+}
+.prListWrapper {
+	text-align: left; color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; display: block;
+}
+.prReviewerCell {
+	border-right-color: rgb(229, 228, 228); border-right-width: 1px; border-right-style: solid; background-color: rgb(248, 248, 248);
+}
+.prReviewerWrapper {
+	padding: 10px; width: 135px; color: rgb(102, 102, 102);
+}
+.prContentWrapper {
+	padding: 10px 10px 10px 15px;
+}
+.prReviewerCell {
+	
+}
+.prListBar {
+	height: 1px; margin-top: 8px; margin-bottom: 8px; background-color: rgb(222, 222, 222);
+}
+.prReviewerName {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700;
+}
+.prReviewerLocation {
+	color: rgb(85, 85, 85); padding-bottom: 10px; font-family: arial,verdana,sans-serif; font-size: 10px; font-weight: 500;
+}
+.prReviewerRating {
+	color: rgb(51, 51, 51); padding-bottom: 4px; font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.prVerifiedBuyer {
+	padding-bottom: 14px;
+}
+.prListRecommend {
+	color: rgb(102, 102, 102); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.prTitle {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 15px; font-weight: 700;
+}
+.prReviewDate {
+	color: rgb(102, 102, 102); padding-bottom: 12px; font-family: arial,verdana,sans-serif; font-size: 11px; font-weight: 500;
+}
+.prListOverallRating {
+	padding-bottom: 12px;
+}
+.prBody {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500;
+}
+.prListPros {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; margin-top: 8px;
+}
+.prListPros h5 {
+	padding: 0px; color: rgb(0, 100, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; margin-bottom: 4px;
+}
+.prListCons {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; margin-top: 8px;
+}
+.prListCons h5 {
+	padding: 0px; color: rgb(125, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; margin-bottom: 4px;
+}
+.prListBestUses {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 500; margin-top: 8px;
+}
+.prListBestUses h5 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; margin-bottom: 4px;
+}
+.prReviewPhotos {
+	padding-top: 10px; clear: both; margin-bottom: 6px;
+}
+.prReviewPhotos img {
+	margin-right: 5px;
+}
+.prReviewPhotos li {
+	float: left;
+}
+.prMerchantResponse {
+	padding: 8px; margin-top: 10px; background-color: rgb(255, 253, 229);
+}
+.prMerchantResponse h5 {
+	margin: 0px 0px 6px; padding: 0px; color: rgb(51, 51, 51); font-family: arial,verdana,sans-serif; font-size: 12px; font-weight: 700; display: block;
+}
+.prViewAll {
+	text-align: right; padding-right: 20px; padding-bottom: 12px;
+}
+.prViewAll a {
+	color: rgb(0, 0, 0); font-family: arial,verdana,sans-serif; font-size: 14px; font-weight: 700; text-decoration: underline;
+}
+.prListFeaturedWrapper {
+	
+}
+.prListFeaturedTitle {
+	padding: 6px; color: rgb(0, 0, 0); font-family: arial,sans-serif; font-size: 12px; font-weight: 700; background-color: rgb(255, 255, 255);
+}
+.prListFeaturedWrapper div.read {
+	padding-bottom: 10px;
+}
+.prListFeaturedReview {
+	padding: 10px;
+}
+.prListFeaturedReview div.rating {
+	padding-bottom: 4px;
+}
+.prListFeaturedReview div.title {
+	padding-bottom: 4px; font-size: 11px; font-weight: 700;
+}
+.prListFeaturedReview div.body {
+	
+}
+.prListFeaturedReview div.name {
+	padding-top: 8px; font-size: 11px; font-style: italic; font-weight: 700;
+}
+.prListFeaturedReview div.bar {
+	height: 6px;
+}
+.pdReviewsClear {
+	overflow: hidden; clear: both;
+}
+.pdReviewsPaging table td {
+	color: rgb(128, 125, 125); padding-right: 5px; padding-left: 5px; font-family: trebuchet ms,arial,verdana,sans-serif; font-size: 14px; font-weight: 700; vertical-align: middle;
+}
+.pdReviewsPaging table td div.pdReviewsPagination {
+	color: rgb(102, 102, 102); padding-right: 40px; font-size: 12px; font-weight: 500;
+}
+.pdReviewsPaging table td a:hover {
+	color: rgb(128, 125, 125); text-decoration: underline;
+}
+.pdReviewsPaging div.on {
+	padding: 3px 7px; border-radius: 4px; border: 1px solid rgb(222, 222, 222); text-align: center; background-image: linear-gradient(to top, rgb(222, 222, 222) 0%, rgb(255, 255, 255) 100%); background-color: rgb(222, 222, 222); -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}

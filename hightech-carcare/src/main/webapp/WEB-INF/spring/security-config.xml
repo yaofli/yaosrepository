@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:beans xmlns="http://www.springframework.org/schema/security"
+xmlns:b="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/security 
+http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+<http realm="ODC Framework Realm">
+		<intercept-url pattern="/" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/main/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>   
+        <intercept-url pattern="/home/**" access="ROLE_WELCOME,ROLE_USER" />
+        <intercept-url pattern="/admin/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/manager/**" access="ROLE_MANAGER"/>
+        <intercept-url pattern="/user/**" access="ROLE_USER"/>
+        <intercept-url pattern="/email/**" access="ROLE_EMAIL"/>
+        <intercept-url pattern="/role/**" access="ROLE_ROLE"/>
+        <intercept-url pattern="/group/**" access="ROLE_GROUP"/>        
+        <form-login login-page="/carcare"
+        authentication-failure-url="/main/login.do?login_error=1"
+        default-target-url="/home/welcome.do" />
+        <logout logout-success-url="/carcare"
+        invalidate-session="true" />
+        <session-management>
+        <concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
+        </session-management>
+</http>
+<authentication-manager>
+	<authentication-provider user-service-ref="userDetailService"></authentication-provider>
+</authentication-manager>
+<b:bean name="userDetailService" class="com.hightech.carcare.usermanager.service.impl.UserManagerServiceImpl"></b:bean>
+</b:beans>

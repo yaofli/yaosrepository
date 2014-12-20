@@ -1,0 +1,10 @@
+var MENU_ADD="/admin/menumanager/add/";
+var MENU_EDIT="/admin/menumanager/edit/";
+var MENU_DELETE="/admin/menumanager/delete/";
+var CATEGORY_ADD="admin/categorymanager/add/";
+var CATEGORY_EDIT="/admin/categorymanager/edit/";
+var CATEGORY_DELETE="/admin/categorymanager/delete/";
+var PRODUCT_MANAGER="/admin/productmanager/"
+var PRODUCT_ADD="/admin/productmanager/add/";
+var PRODUCT_EDIT="/admin/productmanager/edit/";
+var PRODUCT_DELETE="/admin/productmanager/delete/";

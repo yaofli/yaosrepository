@@ -1,0 +1,543 @@
+.myAccountWrapper {
+	width: 735px; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500; margin-top: 16px; margin-left: 20px;
+}
+.myAccountWrapper td {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500;
+}
+.marDataTable {
+	width: 100%;
+}
+.marDataTable th {
+	background-position: left bottom; text-align: left; color: rgb(68, 68, 68); line-height: 38px; padding-left: 6px; font-size: 11px; font-weight: 700; background-image: url("/skins/autogeek/dataTableHeaderBg.gif"); background-repeat: no-repeat;
+}
+.marDataTable td {
+	padding: 6px; text-align: left; font-size: 11px;
+}
+.marDataTable h1 {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 16px; font-weight: 700;
+}
+.marDataTableRowOff {
+	background-image: url("/skins/autogeek/dataTableRowOffBg.gif"); background-repeat: repeat-x;
+}
+.marDataTableRowOn {
+	background-image: url("/skins/autogeek/dataTableRowOnBg.gif"); background-repeat: repeat-x;
+}
+.marPrice {
+	color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500;
+}
+.marRegPrice {
+	color: rgb(102, 102, 102); font-family: verdana,arial,sans-serif; font-size: 10px; font-weight: 500;
+}
+.marSalePrice {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700;
+}
+.marYourPrice {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700;
+}
+.marTitle {
+	height: 50px; margin-bottom: 12px; vertical-align: text-bottom; background-image: url("/skins/autogeek/titleBg.gif"); background-repeat: repeat-x;
+}
+.marTitle h1 {
+	margin: 0px; padding: 14px 0px 0px 10px; text-align: left; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 22px; font-weight: 700;
+}
+.marNavTitle {
+	margin-bottom: 2px; margin-left: 2px;
+}
+.marNavTitle table {
+	width: 99%;
+}
+.marNavTitle table th {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 22px; font-weight: 700;
+}
+.marNavTitle table td {
+	text-align: right; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700;
+}
+.marNavTitle a:link {
+	color: rgb(136, 136, 136); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marNavTitle a:active {
+	color: rgb(136, 136, 136); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marNavTitle a:visited {
+	color: rgb(136, 136, 136); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marNavTitle a:hover {
+	color: rgb(73, 117, 162); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav {
+	background-position: left bottom; height: 50px; margin-bottom: 24px; vertical-align: text-bottom; background-image: url("/skins/autogeek/navBg.gif"); background-repeat: repeat-x;
+}
+#marNav table {
+	height: 100%;
+}
+#marNav td {
+	vertical-align: bottom;
+}
+#marNav td {
+	background-position: left bottom; background-image: url("/skins/autogeek/tabLOn.gif"); background-repeat: no-repeat;
+}
+#marNav div {
+	background-position: right; padding: 0px 10px; height: 30px; background-image: url("/skins/autogeek/tabROn.gif"); background-repeat: no-repeat;
+}
+#marNav .marNavSpacer {
+	padding-right: 0px; padding-left: 4px; background-image: none;
+}
+#marNav .marNavOn {
+	background-position: left bottom; background-image: url("/skins/autogeek/tabL.gif"); background-repeat: no-repeat;
+}
+#marNav .marNavOn div {
+	background-position: right; padding: 0px 8px; height: 30px; background-image: url("/skins/autogeek/tabR.gif"); background-repeat: no-repeat;
+}
+#marNav .marNavOn a {
+	color: rgb(0, 0, 0); line-height: 30px; font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav .marNavOn a:link {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav .marNavOn a:active {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav .marNavOn a:visited {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav a {
+	color: rgb(255, 255, 255); line-height: 30px; font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav a:link {
+	color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav a:active {
+	font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav a:visited {
+	color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+#marNav a:hover {
+	color: rgb(255, 255, 255);
+}
+#marNavSub {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#marNavSub h4 {
+	color: rgb(0, 0, 0); font-size: 11px; font-weight: 700;
+}
+#marNavSub td {
+	background-position: left; padding-right: 24px; padding-left: 14px; float: left; background-image: url("/skins/autogeek/rightArrow.gif"); background-repeat: no-repeat;
+}
+#marNavSub a:link {
+	color: rgb(164, 22, 8); font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+#marNavSub a:visited {
+	color: rgb(164, 22, 8); font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+#marNavSub a:active {
+	color: rgb(164, 22, 8); font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+#marNavSub a:hover {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+#marNavSub .marNavSubOn {
+	background-image: url("/skins/autogeek/downArrow.gif");
+}
+#marNavSub .marNavSubOn a:link {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500; text-decoration: none;
+}
+#marNavSub .marNavSubOn a:visited {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500; text-decoration: none;
+}
+#marNavSub .marNavSubOn a:active {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500; text-decoration: none;
+}
+#marNavSub .marNavSubOn a:hover {
+	color: rgb(51, 51, 51); font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marInfoBox {
+	padding: 10px; border: 1px solid rgb(222, 222, 222); width: 180px; font-family: verdana,arial,sans-serif; font-size: 12px;
+}
+.marInfoBox img {
+	vertical-align: middle;
+}
+.marInfoBox a:link {
+	color: rgb(249, 194, 31); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marInfoBox a:active {
+	color: rgb(249, 194, 31); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marInfoBox a:visited {
+	color: rgb(249, 194, 31); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: none;
+}
+.marInfoBox a:hover {
+	color: rgb(73, 117, 162); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.marOrderHistorySearch {
+	padding: 6px; border: 1px solid rgb(204, 204, 204); width: 450px;
+}
+.marOrderHistorySearch form {
+	display: inline;
+}
+.marOrderHistorySearch input.text {
+	width: 200px;
+}
+.marPreferencesTable {
+	width: 100%;
+}
+.marPreferencesTable td {
+	
+}
+.marPreferencesTable img {
+	display: inline;
+}
+.marPreferencesTable h1 {
+	background-position: bottom; padding: 5px; border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 12px; background-image: url("/skins/autogeek/h2Bg.png"); background-repeat: repeat-x;
+}
+.marPreferencesTable h2 {
+	margin: 0px; padding: 0px; color: rgb(0, 51, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700;
+}
+.marPreferencesPassword {
+	padding: 6px; border: 1px dotted rgb(222, 222, 222); background-color: rgb(242, 242, 242);
+}
+.marRegisterTable {
+	width: 100%;
+}
+.marRegisterTable td {
+	
+}
+.marRegisterTable img {
+	display: inline;
+}
+.marRegisterTable h1 {
+	padding: 5px; border: 1px solid rgb(164, 16, 2); color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700; margin-top: 10px; margin-bottom: 0px; background-color: rgb(193, 27, 5);
+}
+.marRegisterTable h2 {
+	margin: 0px; padding: 0px; color: rgb(0, 51, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700;
+}
+.marCopyCheckbox {
+	padding: 5px; border: 1px dotted rgb(204, 204, 204); width: 350px; color: rgb(51, 51, 51); margin-top: 10px; margin-bottom: 10px; background-color: rgb(222, 222, 222);
+}
+.marCopyCheckbox input {
+	vertical-align: middle;
+}
+.marCopyCheckbox div {
+	float: right;
+}
+.marLoginBoxTitle {
+	color: rgb(51, 51, 51); padding-left: 6px; font-family: verdana,arial,sans-serif; font-size: 15px; font-weight: 700; margin-top: 0px; margin-bottom: 5px;
+}
+.marLoginBox {
+	width: 250px; background-image: url("/skins/autogeek/loginBoxBgRepeat.gif"); background-repeat: repeat-y;
+}
+.marLoginBox table {
+	width: 100%;
+}
+.marLoginBox th {
+	background-position: left bottom; text-align: left; padding-right: 30px; padding-left: 15px; background-image: url("/skins/autogeek/loginBoxBgBody.gif"); background-repeat: no-repeat;
+}
+.marLoginBox td {
+	padding-bottom: 4px;
+}
+.marLoginBox h4 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; margin-top: 4px; margin-bottom: 2px;
+}
+.marLoginBox img {
+	display: block;
+}
+.marLoginBox a:link {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBox a:active {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBox a:visited {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBox a:hover {
+	color: rgb(111, 161, 210); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.marLoginInput {
+	width: 200px;
+}
+.marLoginBoxRememberMe {
+	color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 10px; font-weight: 700; margin-top: 4px; margin-bottom: 4px;
+}
+.marLoginBoxRememberMe input {
+	vertical-align: middle;
+}
+.marLoginRed {
+	text-align: left; color: rgb(200, 0, 0); font-size: 10px; font-weight: 700;
+}
+.marHomeTitle {
+	padding: 0px; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700; margin-top: 0px; margin-bottom: 10px;
+}
+.marOrderDetailReorder div {
+	text-align: right; color: rgb(51, 51, 51); padding-top: 8px; font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700; margin-top: 8px; border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid;
+}
+.marOrderDetailTax div {
+	text-align: right; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500;
+}
+.marOrderDetailShipping div {
+	text-align: right; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500;
+}
+.marOrderDetailTotal {
+	padding: 4px; text-align: right; border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid; background-color: rgb(242, 242, 242);
+}
+.marOrderDetailTotal div {
+	text-align: right; color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700;
+}
+.marOrderDetailTitle {
+	color: rgb(51, 51, 51); padding-left: 5px; font-family: verdana,arial,sans-serif; font-size: 15px; font-weight: 700; margin-top: 0px; margin-bottom: 4px;
+}
+.marOrderDetailTable {
+	width: 100%;
+}
+.marOrderDetailTable td {
+	margin: 10px; border: 1px solid rgb(222, 222, 222); font-family: verdana,arial,sans-serif; font-size: 12px;
+}
+.marOrderDetailTable div {
+	padding: 8px;
+}
+.marOrderDetailTable h2 {
+	padding: 0px; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700; margin-top: 0px; margin-bottom: 10px; float: none; display: block;
+}
+.marOrderDetailTable a:link {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderDetailTable a:active {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderDetailTable a:visited {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderDetailTable a:hover {
+	color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.marRemoveItemLink {
+	
+}
+.marAddFavoritesMessage {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: 700; margin-bottom: 5px;
+}
+.marFavoritesPopupWrapper {
+	margin: 15px; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500; background-color: rgb(255, 255, 255);
+}
+.marFavoritesPopupWrapper td {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500;
+}
+.marFavoritesPopupWrapper a:link {
+	color: rgb(24, 110, 169); text-decoration: underline;
+}
+.marFavoritesPopupWrapper a:active {
+	color: rgb(24, 110, 169); text-decoration: underline;
+}
+.marFavoritesPopupWrapper a:visited {
+	color: rgb(24, 110, 169); text-decoration: underline;
+}
+.marFavoritesPopupWrapper a:hover {
+	color: rgb(133, 176, 216); text-decoration: underline;
+}
+.marFavoritesPopupBody {
+	
+}
+.marFavoritesTitle {
+	color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.marLoginBoxFav {
+	width: 300px; background-image: url("/skins/autogeek/loginBoxFavBgRepeat.gif"); background-repeat: repeat-y;
+}
+.marLoginBoxFav table {
+	width: 100%;
+}
+.marLoginBoxFav th {
+	background-position: left bottom; text-align: left; padding-right: 30px; padding-left: 15px; background-image: url("/skins/autogeek/loginBoxFavBgBody.gif"); background-repeat: no-repeat;
+}
+.marLoginBoxFav td {
+	padding-bottom: 4px;
+}
+.marLoginBoxFav h3 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700; margin-top: 4px; margin-bottom: 8px;
+}
+.marLoginBoxFav h4 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; margin-top: 4px; margin-bottom: 2px;
+}
+.marLoginBoxFavInput {
+	width: 250px;
+}
+.marLoginBoxFav img {
+	vertical-align: middle; display: block;
+}
+.marLoginBoxFav a:link {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBoxFav a:active {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBoxFav a:visited {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marLoginBoxFav a:hover {
+	color: rgb(111, 161, 210); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+.marAnnounceFavoritesTitle {
+	padding: 0px; text-align: center; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 18px; font-weight: 700; margin-top: 15px; margin-bottom: 8px;
+}
+.marAnnounceFavorites {
+	border: 1px solid rgb(255, 255, 255); width: 285px; height: 375px; margin-left: 40px; background-image: url("/skins/autogeek/announceFavoritesBg.gif"); background-repeat: no-repeat;
+}
+.marAnnounceFavorites table {
+	margin-top: 20px; margin-left: 14px;
+}
+.marAnnounceFavorites th {
+	text-align: left; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700;
+}
+.marAnnounceFavorites td {
+	color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500;
+}
+.marOrderStatusBoxTitle {
+	color: rgb(51, 51, 51); padding-left: 6px; font-family: verdana,arial,sans-serif; font-size: 15px; font-weight: 700; margin-top: 0px; margin-bottom: 5px;
+}
+.marOrderStatusBox {
+	width: 300px; background-image: url("/skins/autogeek/orderStatusBgRepeat.gif"); background-repeat: repeat-y;
+}
+.marOrderStatusBox table {
+	width: 100%;
+}
+.marOrderStatusBox th {
+	background-position: left bottom; text-align: left; padding-top: 8px; padding-right: 30px; padding-left: 15px; background-image: url("/skins/autogeek/orderStatusBoxBgBody.gif"); background-repeat: no-repeat;
+}
+.marOrderStatusBox td {
+	padding-bottom: 4px;
+}
+.marOrderStatusBox h4 {
+	padding: 0px; color: rgb(51, 51, 51); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; margin-top: 4px; margin-bottom: 2px;
+}
+.marOrderStatusBox img {
+	display: block;
+}
+.marOrderStatusBox a:link {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderStatusBox a:active {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderStatusBox a:visited {
+	color: rgb(41, 80, 121); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: none;
+}
+.marOrderStatusBox a:hover {
+	color: rgb(111, 161, 210); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; text-decoration: underline;
+}
+#addressFormContainer {
+	border: 1px solid rgb(204, 204, 204); left: 50px; top: -30px; width: 400px; display: none; position: absolute; z-index: 10; background-color: rgb(242, 242, 242);
+}
+#addressFormContainer table {
+	margin: 15px;
+}
+#addressFormContainer table th {
+	text-align: left; font-weight: 500;
+}
+#addressFormContainer table td {
+	padding: 2px;
+}
+#addressFormContainer h2 {
+	margin: 1px; padding: 10px; color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 16px; font-weight: 700; background-color: rgb(170, 170, 170);
+}
+.addressBookConfirmDelete table {
+	border: 1px solid rgb(222, 222, 222);
+}
+.addressBookConfirmDelete table th {
+	text-align: right; font-weight: 500;
+}
+.addressBookConfirmDelete table td {
+	padding: 5px;
+}
+.myRewardsPointsDisplay {
+	width: 192px; height: 160px; text-align: center; color: rgb(255, 255, 255); padding-top: 40px; font-family: verdana,arial,sans-serif; font-size: 44px; font-weight: 700; background-image: url("/skins/autogeek/pointsGaugeL.gif"); background-repeat: no-repeat;
+}
+.myRewardsPointsDisplayR {
+	height: 160px; padding-top: 12px; padding-left: 30px; background-image: url("/skins/autogeek/pointsGaugeR.gif"); background-repeat: no-repeat;
+}
+.myRewardsPointsDisplayR h4 {
+	padding: 0px; margin-bottom: 10px;
+}
+.myRewardsPointsTable th {
+	padding: 4px; text-align: right; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.myRewardsPointsTable td {
+	padding: 4px; width: 50%; color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 14px; font-weight: 700; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.myRewardsNote {
+	color: rgb(136, 136, 136); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; margin-top: 10px;
+}
+.rewardStatusComplete {
+	color: rgb(0, 0, 0); text-transform: capitalize; font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500;
+}
+.rewardStatus {
+	color: rgb(0, 200, 0); text-transform: capitalize; font-family: verdana,arial,sans-serif; font-size: 11px; font-style: italic; font-weight: 500;
+}
+.marReviewLink {
+	color: rgb(136, 136, 136); padding-top: 5px; padding-bottom: 2px; font-family: verdana,arial,sans-serif; font-size: 10px; font-weight: 700; vertical-align: middle;
+}
+.marReviewLink {
+	vertical-align: middle;
+}
+.marReviewLink a:link {
+	color: rgb(136, 136, 136); font-size: 11px; font-weight: 700;
+}
+.marReviewLink a:visited {
+	color: rgb(136, 136, 136); font-size: 11px; font-weight: 700;
+}
+.marReviewLink a:active {
+	color: rgb(136, 136, 136); font-size: 11px; font-weight: 700;
+}
+.marReviewLink a:hover {
+	color: rgb(0, 0, 0); font-size: 11px; font-weight: 700;
+}
+.myReviewsTable table {
+	width: 100%; margin-bottom: 12px;
+}
+.myReviewsTable tr {
+	vertical-align: top;
+}
+.myReviewsTable th {
+	padding: 10px; text-align: left; color: rgb(255, 255, 255); font-family: verdana,arial,sans-serif; font-size: 10px; font-weight: 700; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; background-color: rgb(136, 136, 136);
+}
+.myReviewsItemInfoCell {
+	border-left-color: rgb(222, 222, 222); border-left-width: 1px; border-left-style: dotted;
+}
+.myReviewsItemInfoCell img {
+	margin-bottom: 4px;
+}
+.myReviewsTable td {
+	padding: 10px; text-align: left; font-family: verdana,arial,sans-serif; font-size: 11px; border-right-color: rgb(222, 222, 222); border-bottom-color: rgb(222, 222, 222); border-right-width: 1px; border-bottom-width: 2px; border-right-style: dotted; border-bottom-style: solid;
+}
+.myReviewsRating {
+	
+}
+.myReviewsText {
+	color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 500;
+}
+.myReviewsText h4 {
+	padding: 0px; color: rgb(0, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700; margin-top: 12px; margin-bottom: 2px;
+}
+.myReviewsPrice {
+	color: rgb(136, 136, 136); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 500; margin-top: 5px;
+}
+.myReviewsSalePrice {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-size: 12px; font-weight: 700;
+}
+.myReviewsRecommended {
+	color: rgb(247, 147, 28); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; margin-top: 15px;
+}
+.myReviewsImages img {
+	margin-right: 5px;
+}
+.myReviewsReviewImgDisplay {
+	border: 18px solid black; text-align: center; background-color: rgb(0, 0, 0);
+}
+.myReviewsReviewImgDisplay h4 {
+	padding: 0px; text-align: center; color: rgb(222, 222, 222); font-family: verdana,arial,sans-serif; font-size: 11px; font-weight: 700; margin-top: 4px; margin-bottom: 0px;
+}
+.myReviewsDateSubmitted {
+	font-family: verdana,arial,sans-serif; font-size: 10px; font-weight: 700;
+}
+.myReviewsIsRewarded {
+	color: rgb(200, 0, 0); font-family: verdana,arial,sans-serif; font-style: italic; font-weight: 700;
+}
